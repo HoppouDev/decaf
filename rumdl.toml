@@ -1,0 +1,13 @@
+[global]
+exclude = ["vendor/"]
+respect-gitignore = true
+flavor = "gfm"
+disable = ["MD033"]
+
+[MD013]
+line-length = 0
+reflow = true
+reflow-mode = "sentence_per_line"
+code-blocks = false
+tables = false
+headings = false

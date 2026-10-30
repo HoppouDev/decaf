@@ -1,0 +1,8 @@
+[[repos]]
+repo = "builtin"
+hooks = [{ id = "trailing-whitespace" }, { id = "check-illegal-windows-names" }, { id = "check-shebang-scripts-are-executable" }, { id = "check-executables-have-shebangs" }]
+
+[[repos]]
+repo = "https://github.com/compilerla/conventional-pre-commit"
+rev = "33b50eb042bee26eac0ee96ad84aa9c1b4dccdd8"
+hooks = [{ id = "conventional-pre-commit", stages = ["commit-msg"] }]

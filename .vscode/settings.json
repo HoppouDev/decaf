@@ -1,0 +1,6 @@
+{
+	"slint.libraryPaths": {
+		"decaf": "crates/decaf/ui"
+	},
+	"slint.preview.style": "fluent-dark"
+}

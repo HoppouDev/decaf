@@ -1,0 +1,15 @@
+export enum ButtonVariant { default, outline, ghost, destructive, secondary, link }
+
+export enum ButtonSize { default, xs, sm, lg, icon, icon-xs, icon-sm, icon-lg }
+
+export component Button inherits Rectangle {
+    in property <ButtonVariant> variant: ButtonVariant.default;
+    in property <ButtonSize> size: ButtonSize.default;
+    in property <string> text;
+
+    background: blue;
+
+    Text {
+        text: text;
+    }
+}
